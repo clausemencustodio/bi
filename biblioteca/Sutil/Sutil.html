@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            max-width: 1350px;
+            min-width: 250px;
+        }
+        :root{
+            --cor0:#F1CF1E;
+            --cor1:#A8A7A7;
+            --cor2:#23A0D8;
+            --cor3:#E8F6FF;
+        } 
+        body{
+            background-color:rgb(255, 102, 0) ;
+            background-repeat: repeat-x;
+            width: 100%;
+            background-attachment: local;
+           
+           
+        }
+        div.foto{
+           text-align: center;
+           border: 5px solid var(--cor3);
+           display: block;
+           margin-top: 20px;
+           margin-left: 50px;
+           margin-right: 50px;   
+           border-radius: 5px;
+        }
+        .descrição{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 30px;
+            padding-bottom: 50px;
+            display: block;
+        }
+        img{
+           vertical-align: middle;
+            margin: auto;
+            margin-top: 20px;
+        }
+        div#requesitar{
+            text-align: center;
+           
+            display: inline-block;
+            padding: 5px;
+            margin-bottom: 20px ;
+            min-width: 50px;
+            border-radius: 5px;
+            background-color: rgba(255, 166, 0, 0.158);
+           
+        }
+        div#requesitar:hover{
+            background-color:rgb(255, 145, 0);
+            color: white;
+            transition-duration: 0.5s;
+            border: 1px solid rgba(255, 255, 255, 0.233);
+            box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.158);
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            color: var(--cor3);
+        }
+        footer{
+            background-color: var(--cor3);
+            margin-top: 35px;
+            display: block;
+            text-align: center;
+            width: 100%;
+            max-width: 100%;
+            min-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="foto">
+            <img src="../livros/Capas de livros/A sutil arte de ligar o foda-se.PNG"  alt="" width="100" height="300">
+            <div class="descrição">Titulo:A  sutil arte de ligar o foda-se <br>Genero:acção <br></div>
+           <a href="#"><div id="requesitar">Requesitar</div></a>
+        </div>
+        
+    </main>
+    <footer>Desenvolvido pelo segundo grupo</footer>
+</body>
+</html>

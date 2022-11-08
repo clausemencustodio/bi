@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros de Romance</title>
+    <link rel="shortcut icon" href="../Imagens/favicon.ico" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family: 'myfirst';
+            src: url('../Fontes/Work_Sans/WorkSans-VariableFont_wght.ttf');
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+          
+        }
+
+        main {
+            width: 100%;
+        }
+
+        body:hover {
+            background-color: var(--cor3);
+           
+           
+        }
+        .home{
+            width: 40px;
+            margin-left: auto;
+            display: flex;
+            
+        }
+
+        :root {
+            --cor0: #F1CF1E;
+            --cor1: #A8A7A7;
+            --cor2: #23A0D8;
+            --cor3: #E8F6FF;
+        }
+
+        header {
+            background-color: var(--cor2);
+            padding-top: 20px;
+            width: 100%;
+            height: 100%;
+            
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'myfirst';
+            
+            min-width: 300px;
+
+
+        }
+
+        #svg {
+            width: 25px;
+            padding: 1px;
+
+            padding-top: 2px;
+            background-color: rgba(128, 128, 128, 0.521);
+
+        }
+
+        #svg:hover {
+            background-color: gray;
+            box-shadow: 1px 1px 1px black;
+
+        }
+
+        .pesquisa {
+            display: flex;
+            list-style-type: none;
+            padding: 10px;
+        }
+
+        .segundo {
+            margin-left: -28px;
+        }
+
+        #search {
+            padding: 5px;
+        }
+
+        #search:focus {
+            background-color: rgb(173, 210, 252);
+        }
+        img{
+          width: 200px; 
+          
+           
+        }
+        .foto{
+            width: 200px; 
+            height: 250px;  
+            vertical-align: bottom;
+        }
+        .Romance{
+            display: flex;
+            border: 1px solid rgba(0, 0, 0, 0.199);
+           margin-bottom: 10px;
+           box-sizing: border-box;
+           
+           
+           min-width: 100px;
+            
+
+        }
+        .long{
+            max-width: 1350px;
+            min-width: 200px;
+        }
+        .Romance:hover{
+            background-color: rgba(128, 128, 128, 0.336);
+            box-shadow: 2px 2px 2px black;
+            transition-duration: 0.5s;
+            
+        }
+        
+        ul{
+            list-style-type: none;
+            padding-left:5px;
+            box-sizing: border-box;
+        }
+      
+        section{
+            padding: 15px;
+            max-width: 1350px;
+            min-width: 200px;
+        }
+        li{
+            box-sizing: border-box;
+        }
+        .fofo{
+           
+            max-width: 350px;
+        }
+        
+        
+        /*section{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:space-around ;
+        }*/
+
+        /*div.Romance{
+        box-sizing: border-box;
+        margin: 0px;
+     
+        width: 170px;
+        display: inline;
+        border: 1px solid black;
+        padding-top: 230px;
+       
+    }
+    div.Romance:hover{
+        
+        transition-duration: 0.5s;
+        box-shadow: 2px 2px 2px 2px black;
+
+       
+    }
+    div.Name{
+        position:relative;
+        bottom: 100px;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-top: 1px solid black;
+        display: inline-block;
+        padding: px;
+      text-align: center;
+      vertical-align: middle;
+    
+     
+    }
+   
+    input{
+        padding: 5px;
+        border-radius: 5px;
+        display: inline-block;
+        margin: auto;
+
+    }
+    input:focus{
+        background-color: var(--cor3);
+    }*/
+    @media all and(max-width:1350px){
+
+    }
+     footer{
+        display: block;
+       background-color: black;
+       color: white;
+       text-align: center;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> Livros</h1>
+        
+    </header>
+    <div><a href="../Pagina principal.html"><img src="../Imagens/Home.png" class="home" alt=""></a></div>
+    <main>
+
+        <ul class="pesquisa">
+            <li><input type="search" name="pesquisa" id="search" placeholder="Titulo, Gênero, Autor"></li>
+            <li class="segundo"><img src="../icon/SearchOutline.svg" id="svg" alt=""></li>
+        </ul>
+        <section>
+            <div class="Romance">
+                <a href="../Arte de fazer acontecer/a arte.html"><img
+                        src="../livros/Capas de livros/a arte de fazer acontecer.PNG" 
+                        class="foto"  alt=""></a>
+                        
+                            <ul>
+                                <li class="fofo"><strong>Titulo:</strong> A arte de fazer acontecer</li>
+                                <li><strong>Genero:</strong></li>
+                                <li><strong>Autor:</strong></li>
+                                <li><strong>Páginas:</strong></li>
+                                <li><strong>Número de cópias:</strong></li>
+                                
+                            </ul>
+                      
+                <div class="Name"></div>
+                
+            </div>
+
+            <div class="Romance">
+                <a href="../Sutil/Sutil.html"><img src="../livros/Capas de livros/A sutil arte de ligar o foda-se.PNG"
+                    class="foto" alt=""></a>
+                        <ul>
+                            <li><strong>Titulo:</strong> A sutil arte de ligar o foda-se</li>
+                            <li><strong>Genero</strong></li>
+                            <li><strong>Autor:</strong></li>
+                            <li><strong>Páginas:</strong></li>
+                            <li><strong>Número de cópias</strong></li>
+                        </ul>
+               
+            </div>
+            <div class="Romance">
+                <a href=""><img src="../livros/Capas de livros/A árvore do dinheiro.PNG"
+                         class="foto" alt=""></a>
+                         <ul>
+                            <li><strong>Titulo:</strong> A árvore do dinheiro</li>
+                            <li><strong>Genero</strong></li>
+                            <li><strong>Autor:</strong></li>
+                            <li><strong>Páginas:</strong></li>
+                            <li><strong>Número de cópias:</strong></li>
+                         </ul>
+                <div class="Name"></div>
+            </div>
+            <div class="Romance">
+                <a href="../100 dicas/100dicas.html"><img
+                    class="foto"  src="../livros/Capas de livros/100dicas para falar em publico.PNG"
+                         alt=""></a>
+                         <ul>
+                            <li><strong>Titulo:</strong>100 dicas</li>
+                            <li><strong>Genero</strong></li>
+                            <li><strong>Autor:</strong></li>
+                            <li><strong>Páginas:</strong></li>
+                            <li><strong>Número de cópias:</strong></li>
+                         </ul>
+                <div class="Name"></div>
+            </div>
+            <div class="Romance">
+                <a href="../Congo/Congo.html"><img src="../livros/Capas de livros/Congo.PNG"
+                    class="foto"  alt=""></a>
+                         <ul>
+                            <li><strong>Titulo:</strong> Congo</li>
+                            <li><strong>Genero:</strong></li>
+                            <li><strong>Autor:</strong></li>
+                            <li><strong>Páginas:</strong></li>
+                            <li><strong>Número de cópias:</strong></li>
+                         </ul>
+                <div class="Name"></div>
+            </div>
+            <div class="Romance">
+                <a href="../"><img src="../livros/Capas de livros/Uma vida.PNG" 
+                    class="foto"   alt=""></a>
+                        <ul>
+                            <li><strong>Titulo:</strong>Uma vida</li>
+                            <li><strong>Genero:</strong></li>
+                            <li><strong>Autor:</strong></li>
+                            <li><strong>Páginas:</strong></li>
+                            <li><strong>Número de cópias:</strong></li>
+                        </ul>
+                <div class="Name"></div>
+            </div>
+            <div class="Romance">
+                <a href="../"><img src="../livros/Ficção/A Guerra dos Mundos.PNG" 
+                    class="foto"   alt=""></a>
+                        <ul>
+                            <li><strong>Titulo:</strong>Guerra dos mundos</li>
+                            <li><strong>Genero</strong></li>
+                            <li><strong>Autor:</strong></li>
+                            <li><strong>Páginas:</strong></li>
+                            <li><strong>Número de cópias:</strong></li>
+                        </ul>
+               
+            </div>
+            <div class="Romance">
+                <a href="../"><img src="../livros/Ficção/A ilha do Dr.Moreau.PNG" 
+                    class="foto"  alt=""></a>
+                        <ul>
+                            <li><strong>Titulo:</strong>A ilha do Dr.Moreua </li>
+                            <li><strong>Genero</strong></li>
+                            <li><strong>Autor:</strong></li>
+                            <li><strong>Páginas:</strong></li>
+                            <li><strong>Número de cópias</strong></li>
+                        </ul>
+                <div class="Name"></div>
+            </div>
+            <div class="Romance">
+                <a href="../"><img src="../livros/Ficção/A máquina do tempo.PNG" 
+                    class="foto"    alt=""></a>
+                        <ul>
+                            <li><strong>Titulo:</strong>A máquina do tempo</li>
+                            <li><strong>Genero</strong></li>
+                            <li><strong>Autor:</strong></li>
+                            <li><strong>Páginas:</strong></li>
+                            <li><strong>Número de cópias:</strong></li>
+                        </ul>
+                <div class="Name"></div>
+            </div>
+            <div class="Romance">
+                <a href="../"><img src="../livros/Ficção/O Alimento dos Deuses.PNG"
+                    class="foto"    alt=""></a>
+                        <ul>
+                            <li><strong>Titulo:</strong>O alimento dos Deuses</li>
+                            <li><strong>Genero</strong></li>
+                            <li><strong>Autor:</strong></li>
+                            <li><strong>Páginas:</strong></li>
+                            <li><strong>Número de cópias:</strong></li>
+                        </ul>
+                <div class="Name"></div>
+            </div>
+            <div class="Romance">
+                <a href="../"><img src="../livros/Ficção/O Homem Invisivel.PNG" 
+                    class="foto"   alt=""></a>
+                        <ul>
+                            <li><strong>Titulo:</strong>O Homem Invisivel</li>
+                            <li><strong>Genero:</strong></li>
+                            <li><strong>Autor:</strong></li>
+                            <li><strong>Páginas:</strong></li>
+                            <li><strong>Número de cópias:</strong></li>
+                        </ul>
+                <div class="Name"></div>
+            </div>
+            <div class="Romance">
+                <a href="../"><img src="../livros/Ficção/Uma princesa de marte.PNG" 
+                    class="foto"   alt=""></a>
+                        <ul>
+                            <li><strong>Titulo:</strong>Uma princesa de marte</li>
+                            <li><strong>Genero:</strong></li>
+                            <li><strong>Autor:</strong></li>
+                            <li><strong>Páginas:</strong></li>
+                            <li><strong>Número de cópias:</strong></li>
+                        </ul>
+                <div class="Name"></div>
+            </div>
+            <div class="Romance">
+                <a href="../"><img src="../livros/Policiais/O detetive.PNG" 
+                    class="foto"    alt=""></a>
+                        <ul>
+                            <li><strong>Titulo:</strong>Detetives</li>
+                            <li><strong>Genero:</strong></li>
+                            <li><strong>Autor:</strong></li>
+                            <li><strong>Páginas:</strong></li>
+                            <li><strong>Número de cópias:</strong></li>
+                        </ul>
+                <div class="Name"></div>
+            </div>
+            <div class="Romance">
+                <a href="../"><img src="../livros/Policiais/O Assassinato de Roger ackroyd aghata.PNG"
+                    class="foto"  alt=""></a>
+                     <ul>
+                        <li><strong>Titulo:</strong>Assassino de Roger</li>
+                        <li><strong>Genero:</strong></li>
+                        <li><strong>Autor:</strong></li>
+                        <li><strong>Páginas:</strong></li>
+                        <li><strong>Número de cópias:</strong></li>
+                     </ul>
+                <div class="Name"></div>
+            </div>
+            <div class="Romance">
+                <a href="../"><img src="../livros/Policiais/O cão dos baskervilles.PNG"
+                    class="foto"  alt=""></a>
+                         <ul>
+                            <li><strong>Titulo:</strong>O cão dos baskervilles</li>
+                            <li><strong>Genero:</strong></li>
+                            <li><strong>Autor:</strong></li>
+                            <li><strong>Páginas:</strong></li>
+                            <li><strong>Número de cópias:</strong></li>
+                         </ul>
+                <div class="Name"></div>
+            </div>
+            <div class="Romance">
+                <a href="../"><img src="../livros/Policiais/O signo dos quarto autor.PNG"
+                    class="foto"  alt=""></a>
+                         <ul>
+                            <li><strong>Titulo:</strong>O signo dos quartos</li>
+                            <li><strong>Genero:</strong></li>
+                            <li><strong>Autor:</strong></li>
+                            <li><strong>Páginas:</strong></li>
+                            <li><strong>Número de cópias:</strong></li>
+                         </ul>
+                <div class="Name"></div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>Desenvolvido pelo segundo grupo</footer>
+
+</body>
+
+</html>
